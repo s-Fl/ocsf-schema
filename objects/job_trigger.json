@@ -37,7 +37,7 @@
 	},
 	"3": {
 	  "caption": "Event",
-	  "description": "The job is triggered when the specific event occurs. Properties should be populated with respective event sources and specified."
+	  "description": "The job is triggered when the specific event occurs. Properties should be populated with respective event sources and identifiers."
 	},
 	"99": {
 	  "caption": "Other",
@@ -46,7 +46,7 @@
       }
     },
     "user": {
-      "description": "The user that pertains to the job trigger. Can be populated when the <code>Event (3)</code> type that bounds to specific user is identified.",
+      "description": "The user that pertains to the job trigger. Can be populated when the <code>Event (3)</code> type that bounds to specific user is used.",
       "requirement": "optional"
     }
   }
