@@ -1,6 +1,6 @@
 {
   "caption": "Job Action",
-  "description": "The action that will be performed by the job when it is triggered.",
+  "description": "The action that will be performed by the job when certain conditions are met.",
   "name": "job_action",
   "attributes": {
     "type_id": {
@@ -34,7 +34,7 @@
       }
     },
     "type": {
-      "description": "The type of action that can be performed by the job.",
+      "description": "The type of action that the job will perform when specified conditions are met.",
       "requirement": "recommended"
     },
     "cmd_line": {
@@ -42,7 +42,7 @@
       "requirement": "optional"
     },
     "properties": {
-      "description": "The list of properties associated with the job action.<br>Can be populated with additional attributes of a program execution process, fields of a message box or an email.",
+      "description": "The list of properties associated with the performed action.<br>Can be populated with additional attributes of a program execution process, COM object attributes, fields of a message box or an email.",
       "requirement": "recommended"
     }
   }

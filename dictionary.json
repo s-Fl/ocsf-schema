@@ -3538,7 +3538,7 @@
     },
     "job_actions": {
       "caption": "Job Actions",
-      "description": "An array of actions that will be accomplished by a job.",
+      "description": "An array of actions that will be performed by a job when certain conditions are met.",
       "type": "job_action",
       "is_array": true
     },
@@ -3554,7 +3554,7 @@
     },
     "job_triggers": {
       "caption": "Job Triggers",
-      "description": "An array of triggers that must be fired to trigger a job to perform an action.",
+      "description": "An array of conditions or events that, when met, will initiate the job to perform specified actions.",
       "type": "job_trigger",
       "is_array": true
     },
