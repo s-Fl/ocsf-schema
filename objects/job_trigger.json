@@ -4,11 +4,11 @@
   "name": "job_trigger",
   "attributes": {
     "event_codes": {
-      "description": "Event identifiers that pertain to the job trigger.",
+      "description": "Event identifiers that pertain to the job trigger. Should be populated when the <code>Event (3)</code> type is specified.",
       "requirement": "optional"
     },
     "log_sources": {
-      "description": "A collection of log systems or components that pertain to the job trigger.",
+      "description": "A collection of log systems or components that pertain to the job trigger. Should be populated when the <code>Event (3)</code> type is specified.",
       "requirement": "optional"
     }, 
    "properties": {
@@ -37,7 +37,7 @@
 	},
 	"3": {
 	  "caption": "Event",
-	  "description": "The job is triggered when the specific event occurs. Properties should be populated with respective event identifiers."
+	  "description": "The job is triggered when the specific event occurs. Properties should be populated with respective event sources and identifiers."
 	},
 	"99": {
 	  "caption": "Other",
@@ -46,7 +46,7 @@
       }
     },
     "user": {
-      "description": "The user that pertains to the job trigger.",
+      "description": "The user that pertains to the job trigger. Can be populated when the <code>Event (3)</code> type that bounds to specific user is identified.",
       "requirement": "optional"
     }
   }
