@@ -1,6 +1,6 @@
 {
   "caption": "Job Trigger",
-  "description": "The condition or event that initiates a job to perform an action.",
+  "description": "The condition or event that, when met, will initiate the job to perform specified actions.",
   "name": "job_trigger",
   "attributes": {
     "event_codes": {
@@ -42,7 +42,7 @@
       "requirement": "optional"
     },
     "type": {
-      "description": "The type of trigger that must be fired for a job to be triggered.",
+      "description": "The type of condition that must be met to initiate the job to perform its actions.",
       "requirement": "recommended"
     },
     "user": {
